@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Erick Montoya">
+	<title>Miniejercicios JavaScript</title>
+</head>
+<body>
+	<h1>Escoge un color: azul, verde, rojo, amarillo o violeta.</h1>
+
+	<script>
+        const color = prompt("¿Qué color te gusta más?");
+
+		switch (color) {
+            case "azul":
+                alert("Azul cielo, mar y sueños, en tu calma hay paz.");
+                break;
+            
+            case "verde":
+                alert("Verde fresco, vida renace, en tus hojas danzarinas, esperanza brilla.");
+                break;
+
+            case "rojo":
+                alert("Rojo pasión arde, amor, fuego, vida en su esencia.");
+                break;
+
+            case "amarillo":
+                alert("Amarillo sol brilla, campos dorados, alegría en cada instante.");
+                break;
+
+            case "violeta":
+                alert("Violeta, misterio en sus tonos, noche y sueños entrelazados.");
+                break;
+
+            default:
+                alert("Color desconocido");
+                break;
+        }
+	</script>
+
+	<input type="button" value="Recargar" onclick="location.reload()">
+</body>
+</html>

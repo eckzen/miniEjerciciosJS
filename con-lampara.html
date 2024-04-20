@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Erick Montoya">
+	<title>Miniejercicios JavaScript</title>
+</head>
+<body>
+	<h1>Lámpara no enciende</h1>
+
+	<script>
+		let x = prompt("La lámpara no funciona. ¿Está enchufada? (sí, no)");
+		let y = "sí";
+		let z = "no";
+		
+		if (x == y) {
+			let a = prompt("¿Foco quemado?");
+			if (a == z) {
+				alert("Comprar nueva lámpara");
+			} else {
+				alert("Reemplazar el foco")
+			}
+
+		} else {
+			alert("Enchufarla");
+		}
+		
+	</script>
+
+	<input type="button" value="Recargar" onclick="location.reload()">
+</body>
+</html>
